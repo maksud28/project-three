@@ -3,4 +3,25 @@
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  /*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Satisfy', cursive;
+    */
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+/** For Mobile **/
+
+[class*="col-"] {
+  width: 100%;
+}
+
+.nav-img {
+  width: 100px;
+  height: 100px;
 }
