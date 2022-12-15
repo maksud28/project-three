@@ -1,13 +1,14 @@
 * {
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  box-sizing: border-box;
-  font-family: "Fira Sans", sans-serif;
-  /*
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Satisfy', cursive;
-    */
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Satisfy', cursive; */
 }
 
 [class*="col-"] {
@@ -16,12 +17,57 @@
 }
 
 /** For Mobile **/
-
 [class*="col-"] {
   width: 100%;
 }
 
-.nav-img {
+/* nav-bar css starts here */
+
+img {
   width: 100px;
   height: 100px;
 }
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-bar {
+  padding: 1% 7%;
+  text-align: center;
+  background-color: #40868b;
+}
+
+.nav-bar h1 {
+  color: #fff;
+  margin: 0;
+  padding-top: 10px;
+}
+.nav-manu {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.nav-manu a {
+  background-color: #0c6168;
+  border-radius: 10px;
+  margin: 7px 0;
+  padding: 10px;
+}
+.nav-manu a:hover {
+  background-color: gray;
+}
+
+.nav-bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* nav-bar css ends here */

@@ -36,3 +36,20 @@
 .col-12 {
   width: 100%;
 }
+/* nav-bar css starts here */
+.nav-logo {
+  text-align: left;
+}
+.nav-heading {
+  text-align: right;
+}
+.nav-manu {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-manu a {
+  padding: 5px 10px;
+  margin: 20px 0;
+  background-color: transparent;
+}
+/* nav-bar css ends here */
