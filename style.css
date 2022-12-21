@@ -168,6 +168,10 @@ body {
 
 .card-icon {
   text-align: center;
+  transition: transform 2s;
+}
+.card-icon:hover {
+  transform: rotate(360deg);
 }
 
 .card-icon img {
@@ -319,4 +323,115 @@ body {
 -----------------------------------------*/
 /** ----------------------------------------
        professional-exprience ends here
+---------------------------------------------**/
+
+/** ----------------------------------------
+       Achivements contents starts here
+---------------------------------------------**/
+
+.achivement-content {
+  background-color: #39a4ac;
+  width: 100%;
+  overflow: hidden;
+  padding: 1% 5%;
+  color: #fff;
+}
+
+.achivement {
+  text-align: center;
+}
+
+.achivement p {
+  margin: 25px auto;
+}
+
+.contact {
+  text-align: center;
+}
+.contact input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  border: none;
+  resize: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100px;
+  color: white;
+  background-color: #0c6168;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.contact button:hover {
+  background-color: grey;
+}
+
+.contact-links {
+  text-align: center;
+}
+
+.media-buttons .btn {
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 5px;
+  margin: 10px;
+  width: 50px;
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.achivement-content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/** ----------------------------------------
+       Achivements contents ends here
+---------------------------------------------**/
+/** ----------------------------------------
+       Footer contents starts here
+---------------------------------------------**/
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+
+.footer-menu a {
+  display: block;
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+.footer-menu a:hover {
+  color: gray;
+}
+
+.footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/** ----------------------------------------
+       Footer contents ends here
 ---------------------------------------------**/

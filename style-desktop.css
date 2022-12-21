@@ -106,3 +106,44 @@
 }
 
 /* Professional Exprience ends here */
+
+/** ----------------------------------------
+       Achivements contents starts here
+---------------------------------------------**/
+
+.achivement {
+  padding-right: 50px;
+}
+
+.contact button {
+  width: 150px;
+}
+
+.contact-links {
+  position: relative;
+}
+
+.media-buttons {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+}
+
+/** ----------------------------------------
+       Achivements contents ends here
+---------------------------------------------**/
+
+/** ----------------------------------------
+       Footer contents starts here
+---------------------------------------------**/
+
+.footer-menu a {
+  display: inline;
+  margin: 10px;
+}
+
+/** ----------------------------------------
+       Footer contents ends here
+---------------------------------------------**/
